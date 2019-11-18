@@ -39,4 +39,6 @@ module.exports = settings => {
   };
 
   process.on('SIGINT', closeHandler);
+
+  return server;
 };
