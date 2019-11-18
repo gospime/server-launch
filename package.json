@@ -1,0 +1,36 @@
+{
+  "name": "@gospime/server-launch",
+  "version": "1.2.1",
+  "description": "Launch node-server HTTPs",
+  "keywords": [
+    "gospime",
+    "server",
+    "https",
+    "launch"
+  ],
+  "main": "index.js",
+  "scripts": {
+    "build": "npm install && npm audit fix",
+    "up": "npm update",
+    "check": "npm outdated",
+    "upgrade": "npm run up && npm run check && npm run build",
+    "push-version": "standard-version",
+    "ls-g": "npm list -g --depth=0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gospime/server-launch.git"
+  },
+  "author": "Oleg Kravchuk <oleg.kravchuk@gospime.com> (https://gospime.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/gospime/server-launch/issues"
+  },
+  "homepage": "https://github.com/gospime/server-launch#readme",
+  "devDependencies": {
+    "standard-version": "^7.0.0"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
