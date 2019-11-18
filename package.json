@@ -1,6 +1,6 @@
 {
   "name": "@gospime/server-launch",
-  "version": "1.3.0",
+  "version": "1.4.0",
   "description": "Launch node-server HTTPs",
   "keywords": [
     "gospime",
